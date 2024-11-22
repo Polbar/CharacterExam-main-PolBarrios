@@ -80,7 +80,7 @@ public class charactercontroller : MonoBehaviour
         else if (IsGrounded() && _playerGravity.y < 0)
         {
             _playerGravity.y = -1;
-            _animator.SetBool("isjumping", false);
+            _animator.SetBool("IsJumping", false);
             _hasJumped = false; 
         }
 
